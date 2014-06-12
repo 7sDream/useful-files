@@ -3,9 +3,11 @@ First Repo.
 There are some useful files like .ini .mb and others
 
 1.QuickPhrase.mb....................my phrase setting files in fcitx.
-2.Please wait.
 
+2.disable_keyboard.sh...............can disable my keyboard, when after run it, I will get another script to enable my keyboard. You can modify it for your computer settings.
+
+3.Please wait......
 
 
 7sDream.
-2014-6-7
+2014-6-12
