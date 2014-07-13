@@ -21,8 +21,8 @@ mv "$HOSTAPD_CONF_PATH" "${HOSTAPD_CONF_PATH}.old"
 mv "$DNSAMSQ_CONF_PATH" "${DNSAMSQ_CONF_PATH}.old"
 
 # Read WiFi Setting
-read -p "Please your AP name : " apName
-read -p "Please your AP password : " apPwd
+read -p "Please input your AP name : " apName
+read -p "Please input your AP password : " apPwd
 
 # Modify hostapd configure file
 echo "# Define interface" > "$HOSTAPD_CONF_PATH"
