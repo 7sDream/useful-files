@@ -2,9 +2,9 @@
 
 # Useage : Open a Wifi AP;
 # author : 7sDream
-# Data : 2014.07.13
+# Data : 2015.3.7
 
-# Need : hostapd & dnsamsq is installed , wlan0 suppose AP mode, doesn't connect to any AP now.
+# Need : hostapd & dnsmasq is installed , wlan0 suppose AP mode, doesn't connect to any AP now.
 
 # =============================
 
@@ -36,7 +36,7 @@ echo "hw_mode=g" >> "$HOSTAPD_CONF_PATH"
 echo "# Set WIFI channel (can be easily changed)" >> "$HOSTAPD_CONF_PATH"
 echo "channel=6" >> "$HOSTAPD_CONF_PATH"
 echo "# Enable WPA2 only (1 for WPA, 2 for WPA2, 3 for WPA + WPA2)" >> "$HOSTAPD_CONF_PATH"
-echo "wpa=3" >> "$HOSTAPD_CONF_PATH"
+echo "wpa=2" >> "$HOSTAPD_CONF_PATH"
 echo "wpa_passphrase=$apPwd" >> "$HOSTAPD_CONF_PATH"
 
 # Modify dnsamsq configure file
