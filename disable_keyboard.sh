@@ -6,7 +6,7 @@ read -p "Input your [AT Translated Set 2 keyboard] id:" keyboardId
 
 xinput list-props ${keyboardId}
 
-read -p "Input your [disable] entry id:" disableID 
+read -p "Input your [disable] entry id:" disableID
 
 sleep 1
 

@@ -14,19 +14,19 @@ It can disable your keyboard, when after run it, you will get another script to 
 PS. Need xinput.
 
 ```bash
-pip install xinput
+sudo apt-get install xinput
 ```
 
 ## open_wifi.sh
 
 Open Wifi AP.
 
-Need wlan0 suppose ap mode. 
+Need wlan0 suppose ap mode.
 
 Need hostapd & dnsmasq.
 
 ```bash
-pip install hostapd dnsmasq
+sudo apt-get install hostapd dnsmasq
 ```
 
 7sDream.
