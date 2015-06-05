@@ -4,7 +4,7 @@
 # author : 7sDream
 # Data : 2015.3.7
 
-# Need : hostapd & dnsmasq is installed , wlan0 suppose AP mode, doesn't connect to any AP now.
+# Need : hostapd & dnsmasq & nmcli is installed , wlan0 suppose AP mode, doesn't connect to any AP now.
 
 # =============================
 # Turn down servces
@@ -56,6 +56,8 @@ iptables -t nat -F
 # Disable ip forward
 sysctl net.ipv4.ip_forward=0
 nmcli r wifi on
+killall hostapd
+killall dnsmasq
 
 printf "\nDone!\n"
 
