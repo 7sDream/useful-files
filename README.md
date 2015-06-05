@@ -1,4 +1,4 @@
-# First Repo.
+# Something useful
 
 There are some useful files like .ini .mb .sh and others
 
@@ -7,7 +7,7 @@ There are some useful files like .ini .mb .sh and others
 
 My phrase setting files in fcitx.
 
-## kill_keyboad/disable_keyboard.sh
+## kill-keyboad/disable_keyboard.sh
 
 It can disable your keyboard, when after run it, you will get another script to enable keyboard.
 
@@ -23,7 +23,7 @@ Open Wifi AP.
 
 Need wlan0 suppose ap mode.
 
-Need hostapd & dnsmasq & nmcli
+Need hostapd & dnsmasq & nmcli(network manager command line version)
 
 ```bash
 sudo apt-get install hostapd dnsmasq
