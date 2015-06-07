@@ -7,6 +7,10 @@
 # Need : hostapd & dnsmasq & nmcli is installed , wlan0 suppose AP mode, doesn't connect to any AP now.
 
 # =============================
+(( EUID != 0 )) && exec sudo -- "$0" "$@"
+
+BASEDIR=$(dirname $0)
+
 # Turn down servces
 service dnsmasq stop
 service hostapd stop
@@ -39,8 +43,8 @@ sysctl net.ipv4.ip_forward=1
 
 echo -e "\n===== Open WiFi... =====\n"
 
-dnsmasq -C dnsmasq.conf
-hostapd hostapd.conf
+dnsmasq -C ${BASEDIR}/dnsmasq.conf
+hostapd ${BASEDIR}/hostapd.conf
 
 echo -e "\nWiFi Stop, Cleaning......\n"
 
