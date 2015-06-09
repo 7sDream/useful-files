@@ -33,7 +33,12 @@ sudo apt-get install hostapd dnsmasq
 
 Fix the problem that I can't input chinese words in sublime text 3.
 
+## cb-config
+
+style, config and chinese language files for Code::Blocks.
+
+---
 
 7sDream.
 
-2015-06-05
+星期二, 09. 六月 2015 02:55下午 
