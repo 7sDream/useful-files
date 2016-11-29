@@ -1,0 +1,39 @@
+# ----- Attach all left braces -----
+style=java
+
+# ----- Indent -----
+indent=spaces=4
+indent-namespaces
+indent-cases
+
+# ----- Space -----
+
+# Insert space padding around operators
+pad-oper
+
+# Insert space padding around parenthesis on the outside only
+pad-paren-out
+
+# Insert space padding after paren headers (e.g. 'if', 'for'...)
+pad-header
+
+# Remove unnecessary space padding around parenthesis
+unpad-paren
+
+# Attach a pointer or reference operator (*, &, or ^) to names
+align-pointer=name
+align-reference=name
+
+# ----- Formating -----
+
+# Add brackets to unbracketed one line conditional statements
+add-brackets
+
+# Convert tabs to the appropriate number of spaces
+convert-tabs
+
+# Close ending angle brackets on template definitions
+close-templates
+
+# Force use of the Linux line end style
+lineend=linux
